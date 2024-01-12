@@ -8,7 +8,7 @@ let ans = 0;
 while(i<n){
           ans = beforeDiscountPrice[i]/10;
           beforeDiscountPrice[i] -= ans;
-          console.log(ans);
+          console.log(`value at index : ${i} = ${ans}`);
           i++;
 }
 
